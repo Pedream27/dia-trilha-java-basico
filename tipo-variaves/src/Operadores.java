@@ -18,7 +18,7 @@ public class Operadores {
         a = 5;
         b = 5;
 
-     // String resultado = "";
+    // String resultado = "";
     // if(a==b)
     //     resultado = "Verdadeiro";
     // else 
@@ -29,14 +29,28 @@ public class Operadores {
     String resultado = a == b ? "verdadeiro" : "Falso";
     System.out.println(resultado);
 
+    // Relacionais 
+
+    int numero1, numero2;
+
+    numero1 = 1;
+    numero2 = 2;
+    
+    boolean simNao = numero1 == numero2;
+    System.out.println("Numero1 é igual a o numero2 ? " + simNao);
+
+    simNao = numero1 != numero2;
+    System.out.println("Numero1 é diferente do numero2 ? " + simNao);
+
+    simNao = numero1 > numero2;
+    System.out.println("Numero1 é maior que o numero2 ? " + simNao);
+
+    simNao = numero1 < numero2;
+    System.out.println("Numero1 é menor que o numero 2 "  + simNao); 
 
 
 
-        
-
-
-
-        
+    
 }
 
 
