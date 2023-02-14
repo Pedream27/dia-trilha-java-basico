@@ -75,7 +75,7 @@ public class Operadores {
         System.out.println(" Uma das condiçoes é verdadeira ");
     }
 
-
+//testando
 
     
 }
